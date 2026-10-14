@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[NomEntreprise] – Transport routier de marchandises</title>
+<meta name="description" content="Transport routier de marchandises en France et en Europe : lot complet, messagerie, express. Devis gratuit sous 24 h.">
+<style>
+  :root{--bleu:#0b2545;--orange:#f28c28;--gris:#f4f6f9;--texte:#1d2733}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:system-ui,Segoe UI,Arial,sans-serif;color:var(--texte);line-height:1.6}
+  a{text-decoration:none;color:inherit}
+  .container{max-width:1100px;margin:auto;padding:0 20px}
+  header{position:sticky;top:0;background:var(--bleu);color:#fff;z-index:10}
+  nav{display:flex;justify-content:space-between;align-items:center;height:64px}
+  .logo{font-weight:800;font-size:1.3rem}.logo span{color:var(--orange)}
+  nav ul{display:flex;gap:24px;list-style:none}
+  nav a:hover{color:var(--orange)}
+  .btn{display:inline-block;background:var(--orange);color:#fff;padding:14px 28px;border-radius:6px;font-weight:700;border:0;cursor:pointer;font-size:1rem}
+  .btn:hover{opacity:.9}
+  .hero{background:linear-gradient(rgba(11,37,69,.85),rgba(11,37,69,.85)),url('[images.unsplash.com](https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1600)') center/cover;color:#fff;padding:120px 0;text-align:center}
+  .hero h1{font-size:2.6rem;margin-bottom:16px}
+  .hero p{max-width:640px;margin:0 auto 32px;font-size:1.15rem}
+  section{padding:80px 0}
+  h2{text-align:center;font-size:2rem;color:var(--bleu);margin-bottom:12px}
+  .sub{text-align:center;margin-bottom:48px;color:#5b6775}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
+  .card{background:#fff;padding:28px;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.08);border-top:4px solid var(--orange)}
+  .card h3{margin:10px 0;color:var(--bleu)}
+  .icon{font-size:2rem}
+  .gris{background:var(--gris)}
+  .chiffres{background:var(--bleu);color:#fff;text-align:center}
+  .chiffres strong{display:block;font-size:2.4rem;color:var(--orange)}
+  form{max-width:620px;margin:auto;display:grid;gap:14px}
+  input,select,textarea{padding:13px;border:1px solid #cdd4dc;border-radius:6px;font:inherit;width:100%}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  footer{background:#071a30;color:#b8c2cf;text-align:center;padding:30px 0;font-size:.9rem}
+  @media(max-width:700px){nav ul{display:none}.hero h1{font-size:1.8rem}.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <a href="#" class="logo">[Nom]<span>Trans</span></a>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#atouts">Atouts</a></li>
+        <li><a href="#zones">Zones</a></li>
+        <li><a href="#devis">Devis</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="container">
+    <h1>Votre marchandise livrée à l'heure, partout en France et en Europe</h1>
+    <p>Transport routier fiable, suivi en temps réel et interlocuteur unique. Une jeune entreprise, une exigence de grand groupe.</p>
+    <a href="#devis" class="btn">Demander un devis gratuit</a>
+  </div>
+</div>
+
+<section id="services">
+  <div class="container">
+    <h2>Nos services</h2>
+    <p class="sub">Des solutions adaptées à chaque volume et chaque urgence.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">🚛</div><h3>Lot complet</h3><p>Camion dédié à votre marchandise, chargement direct et livraison sans rupture de charge.</p></div>
+      <div class="card"><div class="icon">📦</div><h3>Messagerie / lot partiel</h3><p>Partagez l'espace, réduisez vos coûts pour des expéditions de quelques palettes.</p></div>
+      <div class="card"><div class="icon">⚡</div><h3>Transport express</h3><p>Livraison urgente en véhicule dédié, départ sous quelques heures.</p></div>
+      <div class="card"><div class="icon">🌍</div><h3>International</h3><p>Liaisons régulières vers l'Allemagne, l'Espagne, l'Italie, le Benelux et plus.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="atouts" class="gris">
+  <div class="container">
+    <h2>Pourquoi nous choisir</h2>
+    <p class="sub">Les engagements qui font la différence.</p>
+    <div class="grid">
+      <div class="card"><h3>Ponctualité</h3><p>Respect des créneaux de livraison et information proactive en cas d'aléa.</p></div>
+      <div class="card"><h3>Suivi en temps réel</h3><p>Localisation de votre chargement et preuve de livraison numérique.</p></div>
+      <div class="card"><h3>Flotte récente</h3><p>Véhicules entretenus, conformes aux normes environnementales.</p></div>
+      <div class="card"><h3>Réactivité</h3><p>Devis sous 24 h et un contact direct, sans centre d'appels.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="chiffres">
+  <div class="container grid">
+    <div><strong>24 h</strong>Délai de devis</div>
+    <div><strong>[XX]</strong>Véhicules</div>
+    <div><strong>[XX]</strong>Pays desservis</div>
+    <div><strong>98 %</strong>Livraisons à l'heure (objectif)</div>
+  </div>
+</section>
+
+<section id="zones">
+  <div class="container">
+    <h2>Zones desservies</h2>
+    <p class="sub">Basés à [Ville], nous rayonnons sur toute la France et vers l'Europe.</p>
+    <div class="grid">
+      <div class="card"><h3>Régional</h3><p>[Région] et départements limitrophes, livraison en J+0 ou J+1.</p></div>
+      <div class="card"><h3>National</h3><p>Toute la France métropolitaine, en J+1 / J+2.</p></div>
+      <div class="card"><h3>Europe</h3><p>Pays de l'Union européenne et Royaume-Uni sur demande.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="devis" class="gris">
+  <div class="container">
+    <h2>Demandez votre devis</h2>
+    <p class="sub">Réponse sous 24 h ouvrées.</p>
+    <form onsubmit="event.preventDefault();alert('Merci ! Votre demande a bien été prise en compte.');this.reset();">
+      <div class="row"><input required placeholder="Nom / Société"><input required type="email" placeholder="E-mail"></div>
+      <div class="row"><input required placeholder="Ville de départ"><input required placeholder="Ville d'arrivée"></div>
+      <div class="row">
+        <select><option>Lot complet</option><option>Lot partiel</option><option>Express</option><option>International</option></select>
+        <input placeholder="Poids / nb de palettes">
+      </div>
+      <textarea rows="4" placeholder="Précisions (nature de la marchandise, dates, contraintes…)"></textarea>
+      <button class="btn" type="submit">Envoyer ma demande</button>
+    </form>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container" style="text-align:center">
+    <h2>Contact</h2>
+    <p class="sub">Une question ? Parlons de votre besoin.</p>
+    <p>📞 [01 23 45 67 89]<br>✉️ [contact@votre-domaine.fr]<br>📍 [Adresse, Code postal, Ville]</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2026 [NomEntreprise] – SIRET [XXX] – Licence de transport n° [XXX] – <a href="#">Mentions légales</a>
+  </div>
+</footer>
+
+</body>
+</html>
